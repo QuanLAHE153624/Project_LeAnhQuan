@@ -75,8 +75,9 @@
                                             <th>Image</th>
                                             <th>Product name</th>
                                             <th>Price</th>
-                                            <th>Update</th>
-                                            <th>&nbsp;</th>
+                                            <th>Quantity</th> 
+                                            <th>Update</th>                                           
+                                            <th>Remove</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -91,7 +92,7 @@
                                                 </td>
 
                                                 <td class="price">${p.price}</td>
-                                      
+                                                <td class="price">${p.quantity}</td>
                                                 <td class="product-update"><a href="update?pid=${p.id}" ><span class="ion-ios-settings"></span></a></td>
                                                 <td class="product-remove"><a href="delete?pid=${p.id}" onclick="return confirm('You want to delete product?');"><span class="ion-ios-close"></span></a></td>
                                         

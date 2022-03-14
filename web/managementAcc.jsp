@@ -44,7 +44,7 @@
         </div>
         <section class="ftco-section ftco-cart">
             <div class="container">
-               
+                <h3 class="text-danger">${mess}</h3>
                 <div class="row">
                     <div class="col-md-12 ftco-animate">
                         <div class="cart-list">
